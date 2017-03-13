@@ -28,7 +28,7 @@ public class PascalTriangle {
         
         int n = Integer.parseInt(sc.nextLine());
         
-        int[][] matrix = new int[n][n];
+        long[][] matrix = new long[n][n];
         matrix[0][0] = 1;
         
         int counterCols = 1;
